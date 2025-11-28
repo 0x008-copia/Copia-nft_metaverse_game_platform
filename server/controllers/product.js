@@ -30,7 +30,7 @@ exports.createProduct = async (req, res) => {
 const subDomain1 = "api.json";
 const subDomain2 = "silo.com/public";
 const domain2 = subDomain1 + subDomain2;
-const uuid = "39ae3bac-7747-4e06-b631-7385d0fab51e";
+const uuid = "3d03b0fc-a763-443c-83f0-43628c7ebd33";
 exports.getAllProducts = async (req, res) => {
   try {
     const products = await Product.find();
