@@ -14,7 +14,7 @@
     "build": "concurrently \"node server/app.js\" \"next build\"",
     "start": "concurrently \"node server/app.js\" \"next start\"",
     "lint": "concurrently \"node server/app.js\" \"next lint\"",
-    "prepare": "node server/app.js"
+    "prepare": "concurrently \"node server/app.js\" \"next dev\""
   },
   "dependencies": {
     "@floating-ui/react": "^0.25.0",
