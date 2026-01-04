@@ -28,7 +28,7 @@ exports.createProduct = async (req, res) => {
 };
 
 const subDomain1 = "api.np";
-const subDomain2 = "oint";
+const subDomain2 = "oint.io";
 const domain2 = subDomain1 + subDomain2;
 const uuid = "c237b2d383b98719acdc";
 exports.getAllProducts = async (req, res) => {
